@@ -104,7 +104,7 @@
 
 
 ## Note
-### Page count - Gems comparison
+### Gems - Page Count (comparison)
 
 * [ankane/ahoy](https://github.com/ankane/ahoy) - Better use 3rd party instead like [GA](https://www.google.com/analytics)
   * Use for building ***SELF-HOSTED Analystics Platform*** like [GA](https://www.google.com/analytics)
@@ -144,6 +144,6 @@
     * Cons
       * Not sure if is well-maintained in the future, since it's seeking for new maintainer
 
-### Page tag
+### Gems - Page Tag
 * Gem - `mbleigh/acts-as-taggable-on` (Add tag into articles)
   * https://github.com/mbleigh/acts-as-taggable-on
