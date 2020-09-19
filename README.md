@@ -106,6 +106,14 @@
 ## Note
 ### Gems - Page Count (comparison)
 
+* ***CHOOSE THIS HERE =>*** [charlotte-ruby/impressionist](https://github.com/charlotte-ruby/impressionist) - Use for lightweight ***page count*** purpose ***only***, not browser agent, etc..
+  * Use for page count function built-in system design, lightweight page count
+    * Pros
+      * Easier to config, display page counts
+      * ***better performance*** for web page count displaying
+    * Cons
+      * Not sure if is well-maintained in the future, since it's seeking for new maintainer
+
 * [ankane/ahoy](https://github.com/ankane/ahoy) - Better use 3rd party instead like [GA](https://www.google.com/analytics)
   * Use for building ***SELF-HOSTED Analystics Platform*** like [GA](https://www.google.com/analytics)
     * Pros
@@ -135,14 +143,6 @@
           order by table_schema,
           table_name;
           ```
-
-* [charlotte-ruby/impressionist](https://github.com/charlotte-ruby/impressionist) - Use for lightweight ***page count*** purpose ***only***, not browser agent, etc..
-  * Use for page count function built-in system design, lightweight page count
-    * Pros
-      * Easier to config, display page counts
-      * ***better performance*** for web page count displaying
-    * Cons
-      * Not sure if is well-maintained in the future, since it's seeking for new maintainer
 
 ### Gems - Page Tag
 * Gem - `mbleigh/acts-as-taggable-on` (Add tag into articles)
