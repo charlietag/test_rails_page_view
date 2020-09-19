@@ -107,7 +107,9 @@
 ### Page count - Gems comparison
 
 * [ankane/ahoy](https://github.com/ankane/ahoy)
+
   Use for building ***SELF-HOSTED Analystics Platform*** like [GA](https://www.google.com/analytics)
+
   * Pros
     * Useful for Vistor analystics, like GA
   * Cons
@@ -125,7 +127,9 @@
         ```
 
 * [charlotte-ruby/impressionist](https://github.com/charlotte-ruby/impressionist)
+
   Use for page count function built-in system design, light-weight page count
+
   * Pros
     * Easier to config, display page counts
     * ***better performance*** for web page count displaying
