@@ -124,6 +124,18 @@
           + properties: properties.to_json,
           ```
 
+          > MySql/MariaDB json column type means longtext + ***check constraints***, which will check if content is json type
+
+          ```sql
+          select constraint_schema as table_schema,
+          table_name,
+          constraint_name,
+          check_clause as definition
+          from information_schema.check_constraints
+          order by table_schema,
+          table_name;
+          ```
+
 * [charlotte-ruby/impressionist](https://github.com/charlotte-ruby/impressionist) - Use for lightweight ***page count*** purpose ***only***, not browser agent, etc..
   * Use for page count function built-in system design, lightweight page count
     * Pros
