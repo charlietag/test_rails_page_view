@@ -61,3 +61,6 @@ gem 'bullet', group: 'development'
 # For select timezone
 gem 'simple_form'
 
+# For Devise - User
+gem 'devise'
+
