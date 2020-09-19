@@ -91,7 +91,11 @@
     * `gem 'simple_form'`
 
 * https://github.com/charlietag/test_rails_page_view/compare/v0.0.1...v0.0.2
-  * Start trying ~~charlotte-ruby/impressionist (gem)~~ ***ankane/ahoy (gem)***
+  * Baisc config and setup
+    * ***devise (gem)***
+
+* https://github.com/charlietag/test_rails_page_view/compare/v0.0.2...v0.0.3
+  * Start trying ***charlotte-ruby/impressionist (gem)*** ~~ankane/ahoy (gem)~~
     * Sample image
       ![sample](/screenshots/sample.png)
 
@@ -100,7 +104,34 @@
 
 
 ## Note
-* Gem - `ankane/ahoy` (Vistor analystics)
-  * https://github.com/ankane/ahoy
+### Page count - Gems comparison
+
+* [ankane/ahoy](https://github.com/ankane/ahoy)
+  Use for building ***SELF-HOSTED Analystics Platform*** like [GA](https://www.google.com/analytics)
+  * Pros
+    * Useful for Vistor analystics, like GA
+  * Cons
+    * ***Bad performance*** for displaying page count (backend: select use mysql *regex* query, not *like*)
+      * Designed for BI ([ankane/blazer](https://github.com/ankane/blazer) is recommendded)
+      * For better performance, better **build independently, and works with APP or Ajax framework (Vue, React)**
+    * Not really designed for server-side backend, designed for modern app using js ajax log record (App, Frontend framework)
+      * API + frontend js friendly
+      * Server side `ahoy.track` has some issues ([issue#463](https://github.com/ankane/ahoy/issues/463), [issue#454](https://github.com/ankane/ahoy/issues/454))
+        > Since properties column type is json, but this line does not convert output to json content
+
+        ```diff
+        - properties: properties,
+        + properties: properties.to_json,
+        ```
+
+* [charlotte-ruby/impressionist](https://github.com/charlotte-ruby/impressionist)
+  Use for page count function built-in system design, light-weight page count
+  * Pros
+    * Easier to config, display page counts
+    * ***better performance*** for web page count displaying
+  * Cons
+    * Not sure if is well-maintained in the future, since it's seeking for new maintainer
+
+### Page tag
 * Gem - `mbleigh/acts-as-taggable-on` (Add tag into articles)
   * https://github.com/mbleigh/acts-as-taggable-on
