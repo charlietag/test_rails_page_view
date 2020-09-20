@@ -108,7 +108,8 @@
     ```
 
 * https://github.com/charlietag/test_rails_page_view/compare/v0.0.3...v0.0.4
-  * Start trying ***https://chartkick.com/ (gem)***
+  * Start trying ***chartkick (gem)***
+    * https://chartkick.com/
 
 * https://github.com/charlietag/test_rails_page_view/compare/v0.0.4...v0.0.5
   * Start trying ***acts-as-taggable-on (gem)***
