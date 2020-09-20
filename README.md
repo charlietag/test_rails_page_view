@@ -111,18 +111,18 @@
   * For working with friendly_by (gem)
     * Ref. [link](https://github.com/charlotte-ruby/impressionist#usage)
 
-    ```ruby
-    #impressionist actions: [:show, :index]
-    impressionist actions: [:index]
+      ```ruby
+      #impressionist actions: [:show, :index]
+      impressionist actions: [:index]
 
-    # GET /books/1
-    # GET /books/1.json
-    def show
-      # Ref. https://github.com/charlotte-ruby/impressionist#usage
-      # Be sure to use this method instead of top for working with friendly_by (gem)
-      impressionist @book, "message: show #{@book.name}"
-    end
-    ```
+      # GET /books/1
+      # GET /books/1.json
+      def show
+        # Ref. https://github.com/charlotte-ruby/impressionist#usage
+        # Be sure to use this method instead of top for working with friendly_by (gem)
+        impressionist @book, "message: show #{@book.name}"
+      end
+      ```
 
   * Start trying ***chartkick (gem)***
     * https://chartkick.com/
