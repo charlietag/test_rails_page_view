@@ -75,6 +75,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    chartkick (3.4.0)
     childprocess (3.0.0)
     coderay (1.1.3)
     concurrent-ruby (1.1.7)
@@ -230,6 +231,7 @@ DEPENDENCIES
   bullet
   byebug
   capybara (>= 2.15)
+  chartkick
   devise
   impressionist
   jbuilder (~> 2.7)

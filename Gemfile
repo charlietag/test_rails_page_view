@@ -69,3 +69,6 @@ gem 'devise'
 #gem 'ahoy_matey'
 # For rails page count
 gem 'impressionist'
+
+# For chart
+gem 'chartkick'

@@ -1,6 +1,21 @@
 import "jquery/src/jquery"
 import "bootstrap/dist/js/bootstrap"
 
+require("chartkick")
+require("chart.js")
+
+//--------------------------------------------------
+// Include js sample
+//--------------------------------------------------
+// --- local-time ---
+// ### Method 1 ###
+//import LocalTime from "local-time"
+//LocalTime.start()
+
+// ### Method 2 ###
+//require("local-time").start()
+//--------------------------------------------------
+
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference

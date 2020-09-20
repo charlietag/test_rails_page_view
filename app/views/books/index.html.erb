@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 <!-- <h1>Vistor (Unique): <%#= Impression.where(controller_name: 'books').select(:session_hash).distinct.count %></h1> -->
+<%= pie_chart Impression.where(controller_name: 'books').group(:action_name).count %>
 <h1>Vistor: <%= Impression.where(controller_name: 'books', action_name: 'index').count %></h1>
 <h1>Books</h1>
 

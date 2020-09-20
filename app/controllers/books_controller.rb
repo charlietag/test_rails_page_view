@@ -1,6 +1,7 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
-  impressionist actions: [:show, :index]
+  #impressionist actions: [:show, :index]
+  impressionist actions: [:index]
 
   # GET /books
   # GET /books.json
@@ -11,6 +12,9 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
+    # Ref. https://github.com/charlotte-ruby/impressionist#usage
+    # Be sure to use this method instead of top for working with friendly_by (gem)
+    impressionist @book, "message: show #{@book.name}"
   end
 
   # GET /books/new
