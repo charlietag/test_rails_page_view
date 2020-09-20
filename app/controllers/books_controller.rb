@@ -1,5 +1,6 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
+  impressionist actions: [:show, :index]
 
   # GET /books
   # GET /books.json

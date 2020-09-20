@@ -96,10 +96,21 @@
 
 * https://github.com/charlietag/test_rails_page_view/compare/v0.0.2...v0.0.3
   * Start trying ***charlotte-ruby/impressionist (gem)*** ~~ankane/ahoy (gem)~~
-    * Sample image
-      ![sample](/screenshots/sample.png)
 
-* https://github.com/charlietag/test_rails_page_view/compare/v0.0.2...v0.0.3
+    ```bash
+    $ bin/rails g impressionist
+    ```
+
+    is_impressionable :counter_cache => true
+
+    ```bash
+    $ bin/rails g migration AddImpressionsCountToBook impressions_count:int
+    ```
+
+* https://github.com/charlietag/test_rails_page_view/compare/v0.0.3...v0.0.4
+  * Start trying ***https://chartkick.com/ (gem)***
+
+* https://github.com/charlietag/test_rails_page_view/compare/v0.0.4...v0.0.5
   * Start trying ***acts-as-taggable-on (gem)***
 
 

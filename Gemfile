@@ -64,3 +64,8 @@ gem 'simple_form'
 # For Devise - User
 gem 'devise'
 
+
+# For rails analytics
+#gem 'ahoy_matey'
+# For rails page count
+gem 'impressionist'
