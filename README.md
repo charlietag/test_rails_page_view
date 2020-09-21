@@ -130,8 +130,9 @@
   * Start trying ***chartkick (gem)***
     * https://chartkick.com/
 
-## Result
+## Sample Image
 * chartkick with impressionist
+
   ![chartkick_sample](/screenshots/chartkick_sample.png)
 
 ## Note
