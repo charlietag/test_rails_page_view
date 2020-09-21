@@ -112,15 +112,18 @@
     * Ref. [link](https://github.com/charlotte-ruby/impressionist#usage)
 
       ```ruby
-      #impressionist actions: [:show, :index]
-      impressionist actions: [:index]
+      ## {Rails.root}/app/controllers/books_controller.rb
+      class BooksController < ApplicationController
+        #impressionist actions: [:show, :index]
+        impressionist actions: [:index]
 
-      # GET /books/1
-      # GET /books/1.json
-      def show
-        # Ref. https://github.com/charlotte-ruby/impressionist#usage
-        # Be sure to use this method instead of top for working with friendly_by (gem)
-        impressionist @book, "message: show #{@book.name}"
+        # GET /books/1
+        # GET /books/1.json
+        def show
+          # Ref. https://github.com/charlotte-ruby/impressionist#usage
+          # Be sure to use this method instead of top for working with friendly_by (gem)
+          impressionist @book, "message: show #{@book.name}"
+        end
       end
       ```
 
