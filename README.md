@@ -130,9 +130,9 @@
   * Start trying ***chartkick (gem)***
     * https://chartkick.com/
 
-* https://github.com/charlietag/test_rails_page_view/compare/v0.0.4...v0.0.5
-  * Start trying ***acts-as-taggable-on (gem)***
-
+## Result
+* chartkick with impressionist
+  ![chartkick_sample](/screenshots/chartkick_sample.png)
 
 ## Note
 ### Gems - Page Count (comparison)
@@ -176,5 +176,6 @@
           ```
 
 ### Gems - Page Tag
-* Gem - `mbleigh/acts-as-taggable-on` (Add tag into articles)
-  * https://github.com/mbleigh/acts-as-taggable-on
+* Gem (Add tag into articles)
+  * ~~mbleigh/acts-as-taggable-on~~ (Some migration issues exists)
+  * [pat/gutentag](https://github.com/pat/gutentag) (Useful, not tried in this project yet)
